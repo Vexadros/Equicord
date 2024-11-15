@@ -7,7 +7,6 @@
 import "./style.css";
 
 import { definePluginSettings } from "@api/Settings";
-import { EquicordDevs } from "@utils/constants";
 import definePlugin, { OptionType } from "@utils/types";
 import { waitFor } from "@webpack";
 import { SelectedChannelStore, SelectedGuildStore, UserStore } from "@webpack/common";
@@ -126,7 +125,7 @@ const chatCounterPositionUpdate = (chatInputContainer: HTMLElement, chatTextArea
 export default definePlugin({
     name: "CharacterCounter",
     description: "Adds a character counter to the chat input",
-    authors: [EquicordDevs.creations, EquicordDevs.Panniku],
+    authors: [{ name: "Creation's", id: 209830981060788225n }, { name: "Panniku", id: 703634705152606318n }],
     settings: settings,
 
     start: async () => {

@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-import { EquicordDevs } from "@utils/constants";
 import definePlugin from "@utils/types";
 import { UserStore } from "@webpack/common";
 import { User } from "discord-types/general";
@@ -36,7 +35,7 @@ function ready(user: ModifiedUser) {
 export default definePlugin({
     name: "NoNitroUpsell",
     description: "Removes ALL of Discord's nitro upsells by tricking the client into thinking you have nitro.",
-    authors: [EquicordDevs.thororen],
+    authors: [{ name: "thororen", id: 848339671629299742n }],
     patches: [
         {
             find: "#{intl::USER_PROFILE_ENTRY_POINTS_AMP_UP_YOUR_PROFILE}",

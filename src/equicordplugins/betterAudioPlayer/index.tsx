@@ -7,7 +7,6 @@
 import "./style.css";
 
 import { definePluginSettings } from "@api/Settings";
-import { EquicordDevs } from "@utils/constants";
 import definePlugin, { OptionType } from "@utils/types";
 import { showToast, Toasts } from "@webpack/common";
 
@@ -295,7 +294,7 @@ const settings = definePluginSettings({
 export default definePlugin({
     name: "BetterAudioPlayer",
     description: "Adds a spectrograph and oscilloscope visualizer to audio attachment players",
-    authors: [EquicordDevs.creations],
+    authors: [{ name: "Creation's", id: 209830981060788225n }],
     settings,
     start() {
         const waitForContent = () => {

@@ -8,7 +8,7 @@ import "./styles.css";
 
 import { DataStore } from "@api/index";
 import { definePluginSettings } from "@api/Settings";
-import { Devs, EquicordDevs } from "@utils/constants";
+import { Devs } from "@utils/constants";
 import definePlugin, { OptionType } from "@utils/types";
 import { React } from "@webpack/common";
 
@@ -51,7 +51,7 @@ export function findOverride(id: string): SoundOverride | null {
 export default definePlugin({
     name: "CustomSounds",
     description: "Replace Discord's sounds with your own.",
-    authors: [Devs.TheKodeToad, EquicordDevs.SpikeHD],
+    authors: [Devs.TheKodeToad, { name: "SpikeHD", id: 221757857836564485n }],
     patches: [
         // sound class
         {

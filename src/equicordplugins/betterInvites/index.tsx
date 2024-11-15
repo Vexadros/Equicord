@@ -6,7 +6,6 @@
 
 import "./style.css";
 
-import { EquicordDevs } from "@utils/constants";
 import { openUserProfile } from "@utils/discord";
 import { classes } from "@utils/misc";
 import definePlugin, { StartAt } from "@utils/types";
@@ -34,7 +33,7 @@ function lurk(id: string) {
 export default definePlugin({
     name: "BetterInvites",
     description: "See invites expiration date, view inviter profile and preview discoverable servers before joining by clicking their name",
-    authors: [EquicordDevs.iamme],
+    authors: [{ name: "i am me", id: 984392761929256980n }],
     patches: [
         {
             find: "#{intl::HUB_INVITE_ANOTHER_SCHOOL_LINK}",

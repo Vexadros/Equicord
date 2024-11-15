@@ -4,13 +4,12 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-import { EquicordDevs } from "@utils/constants";
 import definePlugin from "@utils/types";
 
 export default definePlugin({
     name: "AmITyping",
     description: "Shows you if other people can see you typing.",
-    authors: [EquicordDevs.MrDiamond],
+    authors: [{ name: "MrDiamond", id: 523338295644782592n }],
 
     patches: [
         {
