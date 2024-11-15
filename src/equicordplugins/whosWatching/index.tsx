@@ -8,7 +8,6 @@ import { definePluginSettings } from "@api/Settings";
 import { classNameFactory } from "@api/Styles";
 import ErrorBoundary from "@components/ErrorBoundary";
 import { Flex } from "@components/Flex";
-import { EquicordDevs } from "@utils/constants";
 import { getIntlMessage, openUserProfile } from "@utils/discord";
 import { Margins } from "@utils/margins";
 import { classes } from "@utils/misc";
@@ -71,7 +70,7 @@ const AvatarStyles = findByPropsLazy("moreUsers", "emptyUser", "avatarContainer"
 export default definePlugin({
     name: "WhosWatching",
     description: "Hover over the screenshare icon to view what users are watching your stream",
-    authors: [EquicordDevs.Fres],
+    authors: [{ name: "fres", id: 843448897737064448n }],
     settings,
     patches: [
         {
