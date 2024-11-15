@@ -6,7 +6,6 @@
 
 import "./styles.css";
 
-import { EquicordDevs } from "@utils/constants";
 import { Logger } from "@utils/Logger";
 import definePlugin from "@utils/types";
 import { findStoreLazy } from "@webpack";
@@ -490,7 +489,7 @@ function removeHoverListeners() {
 export default definePlugin({
     name: "ImagePreview",
     description: "Hover on message images, avatars, links, and message stickers to show a full preview.",
-    authors: [EquicordDevs.creations],
+    authors: [{ name: "Creation's", id: 209830981060788225n }],
     settings: settings,
 
     start() {

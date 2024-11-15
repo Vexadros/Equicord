@@ -11,7 +11,6 @@ import { definePluginSettings } from "@api/Settings";
 import { classNameFactory } from "@api/Styles";
 import { Flex } from "@components/Flex";
 import { DeleteIcon } from "@components/Icons";
-import { EquicordDevs } from "@utils/constants";
 import { Margins } from "@utils/margins";
 import { classes } from "@utils/misc";
 import { useForceUpdater } from "@utils/react";
@@ -308,7 +307,7 @@ const settings = definePluginSettings({
 
 export default definePlugin({
     name: "KeywordNotify",
-    authors: [EquicordDevs.camila314, EquicordDevs.x3rt],
+    authors: [{ name: "camila314", id: 738592270617542716n }, { name: "x3rt", id: 131602100332396544n }],
     description: "Sends a notification if a given message matches certain keywords or regexes",
     settings,
     patches: [
