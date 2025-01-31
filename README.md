@@ -6,7 +6,7 @@ If you found this just ignore it ╮(￣ω￣;)╭
 
 ### Extra Plugins
 <details>
-<summary>31 additional plugins</summary>
+<summary>30 additional plugins</summary>
 
 - AmITyping by MrDiamond
 - BetterActivities by D3SOX, Arjix, AutumnVN
@@ -19,7 +19,6 @@ If you found this just ignore it ╮(￣ω￣;)╭
 - CustomSounds by TheKodeToad & SpikeHD
 - DeadMembers by Kyuuhachi
 - DoNotLeak by Perny
-- DoubleCounterBypass by nyx
 - FindReply by newwares
 - HideMessage by Hanzy
 - HomeTyping by Samwich
