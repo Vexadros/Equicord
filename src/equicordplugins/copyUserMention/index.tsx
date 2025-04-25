@@ -5,12 +5,8 @@
  */
 
 import { NavContextMenuPatchCallback } from "@api/ContextMenu";
-<<<<<<< HEAD
 import { copyToClipboard } from "@utils/clipboard";
-import { Devs, EquicordDevs } from "@utils/constants";
-=======
 import { Devs } from "@utils/constants";
->>>>>>> c81c2891 (Fix/Remove Problematic Plugins)
 import definePlugin from "@utils/types";
 import { Menu } from "@webpack/common";
 import type { Channel, User } from "discord-types/general";
