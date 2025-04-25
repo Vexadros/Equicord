@@ -6,37 +6,36 @@ If you found this just ignore it ╮(￣ω￣;)╭
 
 ### Extra Plugins
 <details>
-<summary>30 additional plugins</summary>
+<summary>29 additional plugins</summary>
 
 - AmITyping by MrDiamond
 - BetterActivities by D3SOX, Arjix, AutumnVN
 - BetterAudioPlayer by Creations
 - BetterInvites by iamme
-- BlockKrsip by D3SOX
+- BlockKrisp by D3SOX
 - BypassStatus by Inbestigator & thororen
 - CharacterCounter by Creations & Panniku
 - CopyUserMention by Cortex & castdrian
 - CustomSounds by TheKodeToad & SpikeHD
-- DeadMembers by Kyuuhachi
-- DoNotLeak by Perny
 - FindReply by newwares
-- HideMessage by Hanzy
 - HomeTyping by Samwich
-- ImagePreview by Creations
 - InRole by nin0dev
 - JumpToStart by Samwich
 - KeywordNotify by camila314 & x3rt
 - MessageLoggerEnhanced by Aria
 - NoMirroredCamera by Nyx
 - NoNitroUpsell by thororen
+- NoOnboarding by omaw & Glitch
 - NotificationTitle by Kyuuhachi
 - PlatformSpoofer by Drag
+- RPCEditor by Nyako & nin0dev
 - SekaiStickers by MaiKokain
 - SidebarChat by Joona
 - SoundBoardLogger by Moxxie, fres, echo, maintained by thororen
 - Timezones by Aria
 - UnitConverter by sadan
 - UwUifier by echo
+- VoiceJoinMessages by Sqaaakoi & maintained by thororen
 - WhosWatching by fres
 
 </details>
